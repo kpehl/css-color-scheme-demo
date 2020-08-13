@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8" />
-        <link id="pagestyle" rel="stylesheet" href="./assets/css/style.css">
+        <link id="theme" rel="stylesheet" href="./assets/css/bluestyle.css">
         <title>A CSS Color Scheme Demonstration</title>
     </head>
     <body>
@@ -11,8 +11,11 @@
         </header>
         <section id="Instructions">
             <h2>CSS Color Scheme Demonstration</h2>
-            <p>Check out the power of CSS style sheets. With one file, you can define the style for a whole website, making styling consistent and easy to update. Click the button to cycle between 3 color schemes for this webpage.</p>
-            <p><button id="change-scheme-button">Click Me</button></p>
+            <p>Check out the power of CSS style sheets. With one file, you can define the style for a whole website, making styling consistent and easy to update. Click the buttons to swap between two color schemes for this webpage.</p>
+            <p class="flex-row">
+                <button id="bluestyle" onclick="bluestyle()">Blue Style</button>
+                <button id="redstyle" onclick="redstyle()">Red Style</button>
+            </p>
             <script src="./assets/js/change-color-scheme.js"></script>
         </section>
         <section id="section-1">
